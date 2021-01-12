@@ -1,1 +1,1 @@
-Actors app study project.
+Actors Search App study project.

@@ -8,4 +8,6 @@ const calculateAge = (dateString) => {
     }
     return age;
 }
+
+
 export default calculateAge;
