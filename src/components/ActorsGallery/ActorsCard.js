@@ -1,7 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import { Card, Container, Row } from "react-bootstrap";
-import calculateAge from "./utils";
+import calculateAge from "../utils";
 
 const ActorsCard = ({ actorsList }) => {
 	const actorsCard = actorsList.map(

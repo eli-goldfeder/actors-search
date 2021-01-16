@@ -1,14 +1,14 @@
 import React from "react";
 import { Form, Container, Row } from "react-bootstrap";
 
-const SearchInput = ({ handleSearch, handleSelect }) => {
+const SearchInput = ({ handleSearch, handleSelect, placeholder }) => {
 	return (
 		<Container className="search">
 				<Form.Group className="search" as={Row}>
 					<Form.Control
 						size="sm"
 						type="text"
-						placeholder="Search for actor"
+						placeholder={placeholder}
 						className="search-input"
 						onChange={handleSearch}
 					/>
@@ -21,5 +21,7 @@ const SearchInput = ({ handleSearch, handleSelect }) => {
 		</Container>
 	);
 };
+
+
 
 export default SearchInput;
